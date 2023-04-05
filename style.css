@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "monsterat";
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+*{
+   box-sizing: border-box;
+}
+ 
+body{
+    height: 100vh;
+    margin: 0px;
+    background: linear-gradient(297.24deg, #E8EFFC 8.25%,#FFFFFF 91.76%);
+    display: flex;
+    width: 588px;
+    margin-inline: auto;
+    align-items: center;
+}
+.container{
+    display: flex;
+}
+.container1{
+    width: 100%;
+}
+.container2{
+   width:100%;
+}
+.container3{
+ background-image: url(Vector.svg);
+}
+.red-box1{
+    Width: 298px;
+    Height:502px;
+    background: #E3004F;
+    display: flex;
+    background-image: url(Group.png);
+    background-repeat:no-repeat;
+    margin-top: 17px;
+    margin-right: -17px;
+    position: static;
+    z-index: 3;
+}
+.white-box{
+    Width:337px;
+    height: 572px;
+    background: #DADADA;
+    background-image: url(Rectangle.png);
+    
+    background-repeat: no-repeat;
+    padding-top: 72px;
+    padding-left: 73px;
+    padding-right: 73px;
+    padding-bottom: 42px;
+    
+
+}
+h1{
+    
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;   
+ }
+ h3{
+
+    font-Weight:500;
+    height: 17px;
+    text-align: center;
+    color: #FFFFFF;  
+}
+h4{
+    color: #55617D;
+
+}
+p{
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #55617D;
+    mix-blend-mode: normal;
+     font-Weight:400;
+     font-family: "monsterat";
+}
+.wagamama{
+    display: flex;
+    justify-content: space-between;
+     font-Weight:400;
+    font-family: "monsterat";
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-Weight:400;
+    font-family: "monsterat";
+}
+.pizza{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     font-Weight:400;
+    font-family: "monsterat";
+}
+.free{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-Weight:400;
+    font-family: "monsterat";
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+     font-Weight:400;
+    font-family: "monsterat";
+}
+
+
+    
